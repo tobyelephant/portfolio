@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning project 8: AR pet fish</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="#" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/photo1.jpg" alt="toby" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="toby zhang">Toby Zhang</h1>
+
+          <p class="title">Learning Designer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="tobyzjx@gmail.com" class="contact-link">tobyzjx@gmail.com</a>
+            </div>
+
+          </li>
+
+          
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Montreal, Canada</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+    
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li> -->
+
+          <li class="navbar-item">
+            <a href="index.html">
+              <button class="navbar-link" data-nav-link>Back</button>
+            </a>
+          </li>
+<!-- 
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li> -->
+
+        </ul>
+
+      </nav>
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">AR storytelling</h2>
+        </header>
+
+        <section class="about-text">
+          <p><strong>Overview</strong><p>
+            <p>This application lets users interact with their pet fish through their device screen. 
+              Users scan the real-world environment and detect the plane. Once the plane detection is done, users click the screen to place the pet fish. Pet fish will be slowly swimming in place until users give it instructions.</p>
+            
+            
+            <div class="info__item">
+            <p><strong>Features</strong></p>
+            <p>Users will touch the screen to interact with the pet fish. With one finger touch, pet fish will swim to the designated location. 
+              With two fingers touch, pet fish will play dead. With three fingers touching the screen, pet fish will jump out of water; With four fingers touch, users can place seed at the location, and pet fish will follow the seed and eat it immediately.</p>
+            </div>
+          
+            <div class="info__item">
+            <p><strong>Technology</strong></p>
+            <p>Augmented Reality; Unity 3D; ARcore </p>
+            </div>
+
+          
+
+      </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Highlights</h3>
+
+          <ul class="service-list-page">
+
+            <li class="service-item">
+              <div class="service-content-box">
+              
+                <div class="info__item">
+          
+                  <section class = "project_details">
+                    
+                    <p class = "h4 service-title" > Scan the Environment </p>
+                      <img class = "detail_element" src = "./assets/images/gif_files/ARpet/scanEvn.gif" alt = "gif image for scanning the environment"
+                      width = "400"> <br>
+                      <p class = "h4 service-title" > Spawn the Pet Fish  </p>
+                      <img class = "detail_element" src = "./assets/images/gif_files/ARpet/CreatFishgif.gif" alt = "gif image for scanning the environment"
+                      width = "400"><br>
+                      <p class = "h4 service-title" > Pet Moving </p>
+                      <img class = "detail_element" src = "./assets/images/gif_files/ARpet/movement.gif" alt = "gif image for scanning the environment"
+                      width = "400"><br>
+                      <p class = "h4 service-title" > Play Dead </p>
+                      <img class = "detail_element" src = "./assets/images/gif_files/ARpet/clickTwoPlaydeadgif.gif" alt = "gif image for scanning the environment"
+                      width = "400"><br>
+                      <p class = "h4 service-title" > Jump </p>
+                      <img class = "detail_element" src = "./assets/images/gif_files/ARpet/threeClickJump.gif" alt = "gif image for scanning the environment"
+                      width = "400"><br>
+                      <p class = "h4 service-title" > Feed Fish </p>
+                      <img class = "detail_element" src = "./assets/images/gif_files/ARpet/feedFish.gif" alt = "gif image for scanning the environment"
+                      width = "400"><br>
+                      <p class = "h4 service-title" > Feed with Multiple Seaseed </p>
+                      <img class = "detail_element" src = "./assets/images/gif_files/ARpet/feedMultiple.gif" alt = "gif image for scanning the environment"
+                      width = "400"><br>
+          
+                    <h2 style="text-align: center; margin-bottom: 2rem; margin-top: 3rem; color:aliceblue">Demonstration</h2>
+			
+          
+
+                <p style = "text-align: center;"> 
+                <video width="560" height="315" controls class="demo-display">
+                  <source src="./assets/videos/FishPet.mp4" type="video/mp4">
+                  </video>
+                  
+
+                </section>
+              
+              </section>
+              
+            </li>
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Tools used</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+
+            <li class="clients-item">
+              
+                <img src="./assets/images/unity.png" alt="client logo">
+              
+            </li>
+
+            <li class="clients-item">
+              
+                <img src="./assets/images/ar.png" alt="client logo">
+             
+            </li>
+
+            <li class="clients-item">
+              
+                <img src="./assets/images/Csharp.png" alt="client logo">
+              
+            </li>
+          
+            <li class="clients-item">
+              
+              <img src="./assets/images/logo-2-color.png" alt="client logo">
+            
+          </li>
+
+          </ul>
+
+        </section>
+    
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

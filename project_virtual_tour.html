@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>e-learning project 2: Virtual Tour</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="#" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/photo1.jpg" alt="toby" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="toby zhang">Toby Zhang</h1>
+
+          <p class="title">Learning Designer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="tobyzjx@gmail.com" class="contact-link">tobyzjx@gmail.com</a>
+            </div>
+
+          </li>
+
+          
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Montreal, Canada</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+    
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li> -->
+
+          <li class="navbar-item">
+            <a href="index.html">
+              <button class="navbar-link" data-nav-link>Back</button>
+            </a>
+          </li>
+<!-- 
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li> -->
+
+        </ul>
+
+      </nav>
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">Fruit Garden Virtual Tour</h2>
+        </header>
+
+        <section class="about-text">
+          <section class="project__info">
+            <div class="info__item">
+            <p><strong>Overview</strong><p>
+            <p>This VR experience is to provide a virtual tour of the Botanic Garden in Montreal. 
+              All 360 images are taken with the 360 camera and post-edited in Adobe Premier Pro and After Effects. 
+              The tour is made in Adobe Captivate and hosted on Adobe e-learning.</p>
+            </div>
+            
+            <div class="info__item">
+            <p><strong>Features</strong></p>
+            <p>Viewers can choose different viewpoints on this tour and enjoy a 360-degree view of each 
+              spot. There is some information and pictures of the plants to read by only clicking the icon. Forward and 
+              Back icons guide users to move to the next scene or return to the previous location.</p>
+            </div>
+          
+            <div class="info__item">
+            <p><strong>Technology</strong></p>
+            <p>360 Image; Virtual Reality</p>
+            </div>
+      </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Demonstration</h3>
+
+          <ul class="service-list-page">
+
+
+            <li class="service-item">
+
+                <h4 class="h4 service-item-title">
+                  <div class="info__item">
+                      
+                      <p class = "detail_text" > Move in 360 Virtual Tour</p>
+                      <img class = "detail_element" src = "./assets/images/gif_files/360VirtualTour/moveForward.gif" alt = "gif image for scanning the environment"
+                      width = "300">
+                      <p class = "detail_text" > Change Locations </p>
+                      <img class = "detail_element" src = "./assets/images/gif_files/360VirtualTour/movement2.gif" alt = "gif image for scanning the environment"
+                      width = "300">
+                      <p class = "detail_text" > Read Infomation </p>
+                      <img class = "detail_element" src = "./assets/images/gif_files/360VirtualTour/clickInformation.gif" alt = "gif image for scanning the environment"
+                      width = "300">
+                      <p class = "detail_text" > Open Inforgraphic</p>
+                      <img class = "detail_element" src = "./assets/images/gif_files/360VirtualTour/information2.gif" alt = "gif image for scanning the environment"
+                      width = "300">
+
+                </section>
+                
+                    <div class="portfolio-item-individual">
+                        <h2 style="text-align: center; margin-bottom: 2rem; margin-top: 3rem;">Demonstration</h2>
+                  
+                        <p style="margin-bottom: 20px; text-align: center;">Enjoy your tour! &nbsp &nbsp</p>
+                  <p style="text-align: center;"> 
+                    <iframe width="580" height="412" src="https://community-portal-prod-previewdata.s3.us-west-2.amazonaws.com/files/2022/07/19c5807d6c0fff075cda/index.html" 
+                    allowfullscreen class="demo-display"></iframe>
+                  </p>
+            
+                  <h3 style="margin-bottom: 20px; text-align: center; margin-bottom: 2rem; margin-top: 4rem;">Chinese Garden Virtual Tour (Video Demo)</h3>
+                  <p style = "text-align: center;"> 
+                    <video width="560" height="315" controls class="demo-display">
+                      <source src="./assets/videos/ChineseGarden.mp4" type="video/mp4">
+                      </video>
+                    </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Tools used</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+
+            <li class="clients-item">
+              
+                <img src="./assets/images/logo-8-color.png" alt="client logo">
+              
+            </li>
+
+            <li class="clients-item">
+              
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+             
+            </li>
+
+            <li class="clients-item">
+              
+                <img src="./assets/images/360_camera.png" alt="client logo">
+              
+            </li>
+          
+            <li class="clients-item">
+              
+              <img src="./assets/images/logo-1-color.png" alt="client logo">
+            
+          </li>
+
+          </ul>
+
+        </section>
+    
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

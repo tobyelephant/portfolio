@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learning project 7: AR storytelling</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="#" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/photo1.jpg" alt="toby" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="toby zhang">Toby Zhang</h1>
+
+          <p class="title">Learning Designer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="tobyzjx@gmail.com" class="contact-link">tobyzjx@gmail.com</a>
+            </div>
+
+          </li>
+
+          
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Montreal, Canada</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+    
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li> -->
+
+          <li class="navbar-item">
+            <a href="index.html">
+              <button class="navbar-link" data-nav-link>Back</button>
+            </a>
+          </li>
+<!-- 
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li> -->
+
+        </ul>
+
+      </nav>
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">AR storytelling</h2>
+        </header>
+
+        <section class="about-text">
+          <p><strong>Overview</strong><p>
+            <p>This Augmented Reality Application is to provide a new and immersive way of storytelling. 
+              Instead of only reading text and images, readers can now watch 3D animations that tell the story 
+              by using this app and scanning the pictures in the book. The story is about a baby sparrow that encounters three animals and finds his mother in the end with help from Mr. Dandelion.</p>
+            
+      
+            <div class="container">
+            <iframe class="slides" src="https://www.slideshare.net/slideshow/embed_code/key/KA8rUkCcuwPb5m?hostedIn=slideshare&page=upload" 
+            width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+            </div>
+
+            <div class="container2">
+              <iframe class="slides" src="https://www.slideshare.net/slideshow/embed_code/key/jfyOVPy7fmc6Kq?hostedIn=slideshare&page=upload" 
+              width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+              </div>
+            
+            <div class="info__item">
+            <p><strong>Features</strong></p>
+            <p>We created a children's story booklet that has text and images. 
+              Readers need to download our application and then scan the image to trigger the animation playing on each page. 
+              There are 12 scenes that readers can interact with while reading the story.</p>
+            </div>
+          
+            <div class="info__item">
+            <p><strong>Technology</strong></p>
+            <p>Augmented Reality; Unity 3D; ARcore; Vuforia SDK</p>
+            </div>
+
+          
+
+      </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Highlights</h3>
+
+          <ul class="service-list-page">
+
+            <li class="service-item">
+              <div class="service-content-box">
+              
+                <div class="info__item">
+          
+                  <section class = "project_details">
+                    
+                    <p class = "h4 service-title" > Home Menu </p>
+                    <img class = "detail_element" src = "./assets/images/gif_files/ARstorytelling/homeMenu.gif" alt = "gif image for scanning the environment"
+                    width = "400"> <br>
+                    <p class = "h4 service-title" > Flip the Book  </p>
+                    <img class = "detail_element" src = "./assets/images/gif_files/ARstorytelling/flipthebook.gif" alt = "gif image for scanning the environment"
+                    width = "400"> <br>
+                    <p class = "h4 service-title" > Animation for Each Scene </p>
+                    <img class = "detail_element" src = "./assets/images/gif_files/ARstorytelling/sceneAnimation.gif" alt = "gif image for scanning the environment"
+                    width = "400"> <br>
+                    <p class = "h4 service-title" > Scene with Windmill </p>
+                    <img class = "detail_element" src = "./assets/images/gif_files/ARstorytelling/scene3.gif" alt = "gif image for scanning the environment"
+                    width = "400"> <br>
+                    <p class = "h4 service-title" > Flying Crow </p>
+                    <img class = "detail_element" src = "./assets/images/gif_files/ARstorytelling/scene4.gif" alt = "gif image for scanning the environment"
+                    width = "400"> <br>
+                    <p class = "h4 service-title" > Flying Sparrow </p>
+                    <img class = "detail_element" src = "./assets/images/gif_files/ARstorytelling/scene5.gif" alt = "gif image for scanning the environment"
+                    width = "400"> <br>
+          
+                    <h2 style="text-align: center; margin-bottom: 2rem; margin-top: 3rem; color:aliceblue">Demonstration</h2>
+			
+            <p style="margin-bottom: 20px; text-align: center;"> <a href="https://tobyelephant.github.io/ARstorytelling/" target="_blank" style="color:aquamarine">Visit project website!</a></p>
+			      <p style = "text-align: center;"> 
+				    <video width="560" height="400" controls class="demo-display">
+					  <source src="./assets/videos/ARstorytelling.mp4" type="video/mp4">
+				    </video>
+			      </p>
+
+                </section>
+              
+              </section>
+              
+            </li>
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Tools used</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+
+            <li class="clients-item">
+              
+                <img src="./assets/images/unity.png" alt="client logo">
+              
+            </li>
+
+            <li class="clients-item">
+              
+                <img src="./assets/images/ar.png" alt="client logo">
+             
+            </li>
+
+            <li class="clients-item">
+              
+                <img src="./assets/images/Csharp.png" alt="client logo">
+              
+            </li>
+          
+            <li class="clients-item">
+              
+              <img src="./assets/images/logo-4-color.png" alt="client logo">
+            
+          </li>
+
+          </ul>
+
+        </section>
+    
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
